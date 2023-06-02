@@ -1,5 +1,25 @@
 import React, { useState } from "react";
 import "../common/common.css";
+import goodOne from "../../assets/goodone.jpg";
+import chairOne from "../../assets/chair1.jpg";
+import chairTwo from "../../assets/chari2.jpg";
+import chairThree from "../../assets/chair3.png";
+import interior5 from "../../assets//interior5.jpg";
+import background1 from "../../assets//background1.jpg";
+import background2 from "../../assets//background2.jpg";
+import background3 from "../../assets//background3.jpg";
+import hd from "../../assets//hd.jpg";
+import hd1 from "../../assets//hd1.jpg";
+import hd2 from "../../assets//hd2.jpg";
+import hd3 from "../../assets//hd3.jpg";
+import hd4 from "../../assets//hd4.jpg";
+import hd5 from "../../assets//hd5.jpg";
+import hd6 from "../../assets//hd6.jpg";
+import hd7 from "../../assets//hd7.png";
+import hd8 from "../../assets//hd8.jpg";
+import hd9 from "../../assets//hd9.jpg";
+import hd10 from "../../assets//hd10.jpg";
+import hd11 from "../../assets//hd11.jpg";
 
 <script
   src="https://kit.fontawesome.com/34e52d2b48.js"
@@ -59,7 +79,7 @@ const Home = () => {
               <h1 className="h1">Let's Build your dreams together. </h1>
             </div>
             <div className="page_image">
-              <img alt="img" src="/goodone.jpg" />
+              <img alt="img" src={goodOne} />
             </div>
           </div>
         </div>
@@ -76,9 +96,9 @@ const Home = () => {
             </p>
           </div>
           <div className="images">
-            <img alt="" src="/chair1.jpg" />
-            <img alt="" src="/chair3.png" />
-            <img alt="" src="/chari2.jpg" />
+            <img alt="" src={chairOne} />
+            <img alt="" src={chairThree} />
+            <img alt="" src={chairTwo} />
           </div>
         </div>
       </section>
@@ -150,11 +170,7 @@ const Home = () => {
         <div className="interior_design">
           <div className="photo">
             <div>
-              <img
-                className="photos interior1"
-                alt="img"
-                src="/interior5.jpg"
-              />
+              <img className="photos interior1" alt="img" src={interior5} />
             </div>
           </div>
         </div>
@@ -213,35 +229,17 @@ const Home = () => {
               <h2>Some of the top designs</h2>
               <img
                 className="testimonial-image"
-                src="/background1.jpg"
+                src={background1}
                 alt="sample design"
               />
               <img
                 className="testimonial-image"
-                src="/background2.jpg"
+                src={background2}
                 alt="sample design"
               />
               <img
                 className="testimonial-image"
-                src="/background3.jpg"
-                alt="sample design"
-              />
-            </div>
-            <div class="carousel-item">
-              <h2>Some of the top designs</h2>
-              <img
-                className="testimonial-image"
-                src="/hd3.jpg"
-                alt="sample design"
-              />
-              <img
-                className="testimonial-image"
-                src="/hd4.jpg"
-                alt="sample design"
-              />
-              <img
-                className="testimonial-image"
-                src="/hd5.jpg"
+                src={background3}
                 alt="sample design"
               />
             </div>
@@ -249,17 +247,31 @@ const Home = () => {
               <h2>Some of the top designs</h2>
               <img
                 className="testimonial-image"
-                src="/hd.jpg"
+                src={hd3}
                 alt="sample design"
               />
               <img
                 className="testimonial-image"
-                src="/hd2.jpg"
+                src={hd4}
                 alt="sample design"
               />
               <img
                 className="testimonial-image"
-                src="/hd1.jpg"
+                src={hd5}
+                alt="sample design"
+              />
+            </div>
+            <div class="carousel-item">
+              <h2>Some of the top designs</h2>
+              <img className="testimonial-image" src={hd} alt="sample design" />
+              <img
+                className="testimonial-image"
+                src={hd2}
+                alt="sample design"
+              />
+              <img
+                className="testimonial-image"
+                src={hd1}
                 alt="sample design"
               />
             </div>
@@ -267,17 +279,17 @@ const Home = () => {
               <h2>Some of the top designs</h2>
               <img
                 className="testimonial-image"
-                src="/hd6.jpg"
+                src={hd6}
                 alt="sample design"
               />
               <img
                 className="testimonial-image"
-                src="/hd7.png"
+                src={hd7}
                 alt="sample design"
               />
               <img
                 className="testimonial-image"
-                src="/hd8.jpg"
+                src={hd8}
                 alt="sample design"
               />
             </div>
@@ -285,17 +297,17 @@ const Home = () => {
               <h2>Some of the top designs</h2>
               <img
                 className="testimonial-image"
-                src="/hd9.jpg"
+                src={hd9}
                 alt="sample design"
               />
               <img
                 className="testimonial-image"
-                src="/hd10.jpg"
+                src={hd10}
                 alt="sample design"
               />
               <img
                 className="testimonial-image"
-                src="/hd11.jpg"
+                src={hd11}
                 alt="sample design"
               />
             </div>
